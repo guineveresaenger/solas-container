@@ -51,7 +51,7 @@ Container images are hosted on [Quay](https://quay.io) under "Repositories". We 
 
 ## Latest
 
-Any image tagged `:latest` is the most recent development version of the image that has passed CI tests. It may change as further adjustments get made. Use at your own risk.
+Any image tagged `:latest` is the most recent development version that has passed CI tests. It may change as further adjustments get made. Use at your own risk.
 
 ## Tagged versions
 
