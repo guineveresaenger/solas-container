@@ -44,3 +44,19 @@ notifications.
 - [Fork](https://help.github.com/articles/fork-a-repo/) the `container-zabra` repo
 (https://github.com/samsung-cnct/container-zabra) from `samsung-cnct` and begin
 submitting PRs.
+
+# Versioning and Release Process
+
+Container images are hosted on [Quay](https://quay.io) under "Repositories". We have the following conventions for versioning:
+
+## Latest
+
+Any image tagged `:latest` is the most recent development version of the image that has passed CI tests. It may change as further adjustments get made. Use at your own risk.
+
+## Tagged versions
+
+Container images are tagged according to the format `<image_name>vx.x.x`
+
+## Releases
+
+Releases are currently done manually, by pushing a tag to a certain state of master. A release will be cut when it is determined to be useful. Each new solas-container repository will be automatically tagged with `v0.0.0`.
