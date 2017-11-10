@@ -55,7 +55,7 @@ Any image tagged `:latest` is the most recent development version that has passe
 
 ## Tagged versions
 
-Container images are tagged according to the format `<image_name>vx.x.x`
+Container images are tagged according to the format `<image_name>vx.x.x`. A release version tag is considered to be a fully developed version of the container image.
 
 ## Releases
 
