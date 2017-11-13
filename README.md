@@ -51,11 +51,11 @@ Container images are hosted on [Quay](https://quay.io) under "Repositories". We 
 
 ## Latest
 
-Any image tagged `:latest` is the most recent development version that has passed CI tests. It may change as further adjustments get made. Use at your own risk.
+Any image tagged `:latest` is the most recent development version that has passed CI tests. Each successful code contribution will result in a new `:latest`. Use at your own risk.
 
 ## Tagged versions
 
-Container images are tagged according to the format `<image_name>vx.x.x`. A release version tag is considered to be a fully developed version of the container image.
+Container images are tagged according to [semver convention](http://semver.org/) in the format `<image_name>vx.y.z`.
 
 ## Releases
 
