@@ -16,7 +16,8 @@ variables:
   image_name: zabra-container
   quay_org: samsung_cnct
   robot_account: zabra
-  QUAY_PASSWORD: SECRET
+# Create a Gitlab Secret Variable called QUAY_PASSWORD and assign it the value of the Quay robot docker login password.
+# DO NOT PASTE THIS PASSWORD HERE.
 
 stages:
   - build
@@ -42,8 +43,9 @@ build-master:
   - docker build -t $IMAGE_PROD_NAME .
   - docker push $IMAGE_PROD_NAME
 
-test:
-   stage: test
+# Tests go here!
+# test:
+#    stage: test
 
 publish-master:
   stage: publish
